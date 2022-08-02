@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+/*index.jsp ui*/
+
+body {
+	background-color:#898989; /*본문 배경색*/
+	margin:0px; /*상하 좌우 바깥여백 없앰*
+	padding:0px; /*상하 좌우 안여백 없앰*/
+	font-size:0.7em; /*글자 크기*/
+	line-height:1.2em; /*수직간의 문장 사이의 줄간격, 텍스트 줄의 높이를 지정, 수직정렬*/
+	color:#333; /*#333333 16진수 색상코드를 줄여서 표현, 글자색을 지정*/	
+}
+
+#wrap{
+	width:971px; text-align:left; /*글자 수평 왼쪽 정렬*/
+	margin:0px; margin-left:auto; margin-right:auto; /*div 수평 중앙 정렬*/
+	background-image:url(../images/shadow.png); /*배경이미지*/
+	background-repeat: repeat-y; /*y축으로 반복*/
+	min-height:880px; /*최소 높이*/
+}
+
+#logo{
+	float:left; /*로고 이미지를 왼쪽에 배치*/ width:265px;
+	margin:60px 0px 0px 40px; /*시계방향으로 위, 오른쪽, 아래쪽, 왼쪽 바깥 여백을 동시에 지정*/
+	
+}
+
+header { height:151px;
+}
+
+nav{
+	width:600px; margin:70px 20px 0px 0px; float:right; /*오른쪽에 배치*/
+}
+
+nav ul{
+	list-style:none; /*목록 앞 점을 없앰*/
+	font-family:verdana,Geneva, sans-serif; /*글꼴을 지정*/
+	font-size:13px; /*글자크기*/
+	font-weight:100; /*글자 진하게*/
+	color:#333;
+}
+
+nav ul li{
+	float:left; /*수직 목록이 수평으로 변경*/ 
+	margin:0px 5px; /*상하 바깥 여백은 0px, 좌우 바깥 여백은 5픽셀*/
+}
+
+nav a{
+	display: block; height:20px; padding:10px;
+	text-decoration: none; color:#333;
+	 /*밑줄 선 제거*/
+}
+
+nav a:hover{ /*하이퍼링크 된 곳 마우스 오버시 css 효과*/
+	background-image:url(../images/blue.gif);
+	background-repeat:repeat-x; /*배경이미지가 x축으로 반복, 가로방향으로 반복*/
+	background-position:bottom; /*아래쪽에 배치*/
+	
+}
+
+#login{
+	float:right; /*오른쪽에 배치*/ margin:20px 64px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px; word-spacing: 5px; /*단어 사이의 간격*/	
+}
+
+.clear{ clear:both; /*float속성을 제거해서 잘못된 ui적용을 막아준다.*/ }
+
+#login a{
+	text-decoration: none; /*하이퍼링크 걸린 곳 밑줄 선 제거*/
+	color:#333;
+}
+
+#login a:hover {/*하이퍼링크 된 곳 마우스 오버 시*/
+	color:#F90;
+}
+
+/*메인 이미지*/
+#main_img{
+	width:972px; height:308px;
+	background-image:url(../images/img_back.png);
+	background-repeat:no-repeat; /*배경 이미지 반복 안함*/
+	background-position:center top;	
+}
+
+#main_img img{
+	margin:9px 0px 0px 0px;
+	/*시계방형으로 위, 오른쪽, 아래쪽, 왼쪽 바깥여백을 동시에 지정*/
+}
+
+
+
+
