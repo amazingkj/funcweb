@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*welcome.jsp ui*/
+#sub_img{
+	width:971px; height:179px;
+	background-image:url(../images/company/sub_back.png);
+	background-repeat: no-repeat;
+	background-position: left top;	
+}
+
+#sub_menu{
+	border:0px solid #ccc;
+	width:230px; float:left;
+	margin:20px; font-size:1em;	
+}
+
+#sub_menu ul{
+	list-style:none; /*목록 앞 마커 점 없앰*/ margin:20px 0px 0px 10px;
+}
+
+#sub_menu a{
+	text-decoration: none; color:#666; display:block; 
+	height:15px; width:150px; padding:5px;
+	border-bottom-width:1px; /*밑줄 선 두께*/
+	border-bottom-style:dotted; /*밑줄 점선*/
+	border-bottom-color:#999; /*밑줄 선 색*/
+	background-image:url(../images/bullet.gif);
+	background-repeat:no-repeat;
+	background-position: right center;
+}
+
+#sub_menu a:hover{	
+	background-image:url(../images/bullet_orange.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	color:#F90;
+}
+
+/*서브 메인 본문 ui*/
+#sub_main_cont{
+	width:675px; float:right; border:0px solid #ccc;
+	margin-right:15px;
+	/*오른쪽 바깥 여백 설정*/	
+}
+
+#sub_main_cont h1{
+	font-family: "궁서체"; /*글꼴*/
+	font-size: 45px; color:#css;
+	margin:20px 0px;
+	/*상하 바깥 여백 20px, 좌우 바깥 여백은 0px*/
+}
+
+#sub_main_cont p{
+	padding-left:10px; /*왼쪽 안여백 10픽셀 설정*/
+}
+
+figure.ceo{
+	float:right; /*그림 오른쪽에 배치하고, 문자를 왼쪽에 자연스럽게 배치.*/
+	margin:5px; /*상하좌우 바깥여백을 동시에 px로 지정*/
+}
+
+figcaption{
+	text-align: center; color:#39F; font-weight:bold; /*글자 진하게*/
+}
