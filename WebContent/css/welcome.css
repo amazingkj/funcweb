@@ -45,7 +45,7 @@
 
 #sub_main_cont h1{
 	font-family: "궁서체"; /*글꼴*/
-	font-size: 45px; color:#css;
+	font-size: 45px; color: #ccc;
 	margin:20px 0px;
 	/*상하 바깥 여백 20px, 좌우 바깥 여백은 0px*/
 }
